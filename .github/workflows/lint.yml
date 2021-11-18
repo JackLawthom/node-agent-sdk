@@ -2,10 +2,10 @@ name: lint
 on:
   pull_request:
     branches:
-      - ‘develop’
-      - ‘master’
+      - 'develop'
+      - 'master'
     paths:
-      - ‘**.js’
+      - '**.js'
 jobs:
   eslint:
     runs-on: ubuntu-latest
