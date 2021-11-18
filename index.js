@@ -2,7 +2,7 @@
 
 const Agent = require('./lib/AgentSDK');
 
-tim behave
+const tim = "behave"
 
 module.exports = {
     Agent
